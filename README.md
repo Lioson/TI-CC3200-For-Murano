@@ -3,7 +3,6 @@ This is a Murano demo for the TI cc3200 board. This readme guide will explain ho
 
 ![image](assets/cc3200lp.png)
 
-Already built or want to use a pre-built binary? [Jump to Running the Demo Application](#running-the-demo) section.
 
 # Installation and Build Guide
 ![image](assets/setup.JPG)
@@ -11,14 +10,9 @@ Already built or want to use a pre-built binary? [Jump to Running the Demo Appli
 ## What you need to build
 
 * Access to this source repository to clone (git term) or download to your computer.
-* [GIT](https://en.wikipedia.org/wiki/Git_(software) (recommended otherwise manual download and installation is feasible but not covered)
-* A Command Line terminal for your computer
-* The Microchip WCM SDK (link to download below)
-* [Microchip's MPLAB IDE](http://www.microchip.com/pagehandler/en-us/family/mplabx/) (v2.35 or greater) installed on your computer.  
-* Make sure that the Microchip xc32 Compiler is version 1.34.
-   _If not - you can download the installer from the Archive tab on this site:_
-   http://www.microchip.com/pagehandler/en-us/devtools/mplabxc/home.html#can-the-mplab-xc-compilers
-   ![version](/assets/xc32_compiler_version.png)
+* Setup TI Code Composer Studio v6.0 or later in your computer.[Link - http://www.ti.com/lit/ug/swru376d/swru376d.pdf]
+* Setup TI Uniflash v4.0 or later in your computer.[Link - http://www.ti.com/tool/UNIFLASH?keyMatch=cc3200%20uniflash&tisearch=Search-EN-Everything]
+
 
 ## Install and Build
 To build the VFP and demo application, the VFP needs the Microchip's WCM SDK.  This WCM SDK needs be installed to a given path in the VFP/SDK directory so that the project file in the application can find it.  
