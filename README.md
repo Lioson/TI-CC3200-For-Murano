@@ -5,7 +5,7 @@ This is a Murano demo for the TI cc3200 board. This readme guide will explain ho
 
 Already built or want to use a pre-built binary? [Jump to Running the Demo Application](#running-the-demo) section.
 
-# VFP Installation and Build Guide
+# Installation and Build Guide
 ![image](assets/setup.JPG)
 
 ## What you need to build
