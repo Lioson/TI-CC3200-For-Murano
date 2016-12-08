@@ -99,7 +99,7 @@
 #include <platform/exosite_pal.h>
 
 #define APPLICATION_VERSION              "0.1.0"
-#define APP_NAME                         "Exosite Cloud Demo for Exosite Ready"
+#define APP_NAME                         "Exosite Cloud Demo for Murano"
 #define EXOSITE_TASK_PRIORITY            2
 #define LOW_TASK_PRIORITY                1
 #define SPAWN_TASK_PRIORITY              9
@@ -1146,10 +1146,8 @@ static void ExositeTask(void *pvParameters)
 
     UART_PRINT("uid = %s\r\n", uid);
 
-	exo_init(	"texasinstruments",
-				"cc3200lp_v1",
-				uid);
-
+	//exo_init(	"texasinstruments","cc3200lp_v1",uid);
+	exo_init(	"tetn62es21q0k9","tetn62es21q0k9",uid);
 	//download_firmware();
     //Handle Async Events
 	exosite_pal_get_current_date_time(&curDateTime);
@@ -1166,16 +1164,16 @@ static void ExositeTask(void *pvParameters)
 
         UART_PRINT("[EXO] Writing ontime\r\n");
         snprintf(value, sizeof(value), "%llu", g_uptimeSec);
-        exo_write(	"ontime",
+        exo_write(	"uptime",
         			value,
         			write_callback);
-        UART_PRINT("[EXO] Writing ontime end = %s", value);
+        UART_PRINT("[EXO] Writing uptime end = %s", value);
 
-        snprintf(value, sizeof(value), "%.0f", g_accTotalAvg);
+/*        snprintf(value, sizeof(value), "%.0f", g_accTotalAvg);
         exo_write(	"acc",
         			value,
         			write_callback);
-/*
+
         snprintf(value, sizeof(value), "%.0f", g_accXAvg);
         exo_write(	"accX",
         			value,
@@ -1192,18 +1190,22 @@ static void ExositeTask(void *pvParameters)
         			write_callback);
 */
 		snprintf(value, sizeof(value), "%.2f", sensorTemp);
-		exo_write(	"sensortemp",
+		exo_write(	"temperature",
 					value,
 					write_callback);
 
         snprintf(value, sizeof(value), "%llu", g_SW3Counter);
-        exo_write(	"usrsw",
+        exo_write(	"state",
         			value,
         			write_callback);
+		snprintf(value, sizeof(value), "%.2f", 50);
+		exo_write(	"humidity",
+					value,
+					write_callback);
 
-    	exo_read(	"ledd7",
+/*    	exo_read(	"ledd7",
     				read_callback);
-
+*/
     	exo_loop_start();
 
     	/*exo_subscribe(	"ledring",
