@@ -27,8 +27,8 @@ exosite/source/platform/exosite_pal_cc3200.obj: C:/ti/CC3200SDK_1.1.0/cc3200-sdk
 exosite/source/platform/exosite_pal_cc3200.obj: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib/systick.h
 exosite/source/platform/exosite_pal_cc3200.obj: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/common.h
 exosite/source/platform/exosite_pal_cc3200.obj: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/uart_if.h
-exosite/source/platform/exosite_pal_cc3200.obj: C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/typedefs.h
-exosite/source/platform/exosite_pal_cc3200.obj: C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/platform/exosite_pal.h
+exosite/source/platform/exosite_pal_cc3200.obj: D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/typedefs.h
+exosite/source/platform/exosite_pal_cc3200.obj: D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/platform/exosite_pal.h
 
 ../exosite/source/platform/exosite_pal_cc3200.c: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.4/include/stdio.h: 
@@ -57,5 +57,5 @@ C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include/../source/spawn.h:
 C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib/systick.h: 
 C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/common.h: 
 C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/uart_if.h: 
-C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/typedefs.h: 
-C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/platform/exosite_pal.h: 
+D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/typedefs.h: 
+D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/platform/exosite_pal.h: 

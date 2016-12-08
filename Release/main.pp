@@ -45,12 +45,12 @@ main.obj: ../smartconfig.h
 main.obj: ../tmp006drv.h
 main.obj: ../bma222drv.h
 main.obj: ../pinmux.h
-main.obj: C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/typedefs.h
-main.obj: C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/exosite.h
+main.obj: D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/typedefs.h
+main.obj: D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/exosite.h
 main.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.4/include/stdio.h
 main.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.4/include/stdlib.h
-main.obj: C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/config.h
-main.obj: C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/platform/exosite_pal.h
+main.obj: D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/config.h
+main.obj: D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/platform/exosite_pal.h
 
 ../main.c: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.4/include/stdlib.h: 
@@ -97,9 +97,9 @@ C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/common.h:
 ../tmp006drv.h: 
 ../bma222drv.h: 
 ../pinmux.h: 
-C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/typedefs.h: 
-C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/exosite.h: 
+D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/typedefs.h: 
+D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/exosite.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.4/include/stdio.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.4/include/stdlib.h: 
-C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/config.h: 
-C:/Users/lioson/Desktop/ExositeReady-CC3200-master/exosite/include/platform/exosite_pal.h: 
+D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/config.h: 
+D:/Project/Murano-CC3200(Customer\ Use\ Only)/exosite/include/platform/exosite_pal.h: 
