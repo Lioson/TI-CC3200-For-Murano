@@ -53,7 +53,7 @@ In this section, you will flash and run an example application for a connected l
 2. Click on "3200ExositeDemo", open main.c , enter Product ID.	
 	![image](assets/thingdev_9.png)
 	
-#### Find your Product ID:
+#### FIND YOUR PRODUCT ID:
 
 		a. In Murano, navigate to the Products tab and select the product you just created.
 		
