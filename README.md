@@ -54,7 +54,9 @@ In this section, you will flash and run an example application for a connected l
 	![image](assets/thingdev_9.png)
 	
 #### Find your Product ID:
+
 		a. In Murano, navigate to the Products tab and select the product you just created.
+		
 		b. On the INFO tab, locate the Product ID and copy it.			
 			![image](assets/thingdev_10.png)
 			
