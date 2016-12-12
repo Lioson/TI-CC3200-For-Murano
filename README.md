@@ -47,12 +47,17 @@ NOTE: If you did not use the template URL in the previous step, you can manually
 
 In this section, you will flash and run an example application for a connected lightbulb in CC3200-LAUNCHXL.
 1.Open CCS, import 3200ExositeDemo project (The source code you have download from github), in project explore, you shall see 5 projects, if not, setup environment refer to here: [Link - http://www.ti.com/lit/ug/swru376d/swru376d.pdf]
+	
 	![image](assets/thingdev_8.png)
+	
 2.Click on "3200ExositeDemo", open main.c , enter Product ID.
+	
 	![image](assets/thingdev_9.png)
-	Find your Product ID:
+	
+	#Find your Product ID:
 		a.In Murano, navigate to the Products tab and select the product you just created.
 		b.On the INFO tab, locate the Product ID and copy it.
+			
 			![image](assets/thingdev_10.png)
 
 
