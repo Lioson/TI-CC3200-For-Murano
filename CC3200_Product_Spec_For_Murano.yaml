@@ -3,17 +3,13 @@
 
 resources:
 -   alias: ontime
-    format: integer
-    
+    format: integer    
 -   alias: ledd7
-    format: string
-    
+    format: string    
 -   alias: sensortemp
-    format: integer
- 
+    format: integer 
 -   alias: acc
-    format: integer
-       
+    format: integer       
 -   alias: usrsw
     format: string    
     initial: 0
