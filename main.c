@@ -1147,7 +1147,7 @@ static void ExositeTask(void *pvParameters)
     UART_PRINT("uid = %s\r\n", uid);
 
 	//exo_init(	"texasinstruments","cc3200lp_v1",uid);
-	exo_init(	"tetn62es21q0k9","tetn62es21q0k9",uid);
+	exo_init(	"6yb9lsc1omq85mi","6yb9lsc1omq85mi",uid);
 	//download_firmware();
     //Handle Async Events
 	exosite_pal_get_current_date_time(&curDateTime);
@@ -1163,17 +1163,17 @@ static void ExositeTask(void *pvParameters)
         TMP006DrvGetTemp(&sensorTemp);
 
         UART_PRINT("[EXO] Writing ontime\r\n");
-        snprintf(value, sizeof(value), "%llu", g_uptimeSec);
-        exo_write(	"uptime",
+        snprintf(value, sizeof(value), "%llu", g_uptimeSec);	//y
+        exo_write(	"ontime",
         			value,
         			write_callback);
         UART_PRINT("[EXO] Writing uptime end = %s", value);
 
-/*        snprintf(value, sizeof(value), "%.0f", g_accTotalAvg);
+        snprintf(value, sizeof(value), "%.0f", g_accTotalAvg);
         exo_write(	"acc",
         			value,
         			write_callback);
-
+/*
         snprintf(value, sizeof(value), "%.0f", g_accXAvg);
         exo_write(	"accX",
         			value,
@@ -1189,23 +1189,23 @@ static void ExositeTask(void *pvParameters)
         			value,
         			write_callback);
 */
-		snprintf(value, sizeof(value), "%.2f", sensorTemp);
-		exo_write(	"temperature",
+		snprintf(value, sizeof(value), "%.2f", sensorTemp);		//y
+		exo_write(	"sensortemp",
 					value,
 					write_callback);
 
         snprintf(value, sizeof(value), "%llu", g_SW3Counter);
-        exo_write(	"state",
+        exo_write(	"usrsw",
         			value,
         			write_callback);
+/*        			
 		snprintf(value, sizeof(value), "%.2f", 50);
 		exo_write(	"humidity",
 					value,
 					write_callback);
-
-/*    	exo_read(	"ledd7",
-    				read_callback);
 */
+    	exo_read(	"ledd7",
+    				read_callback);
     	exo_loop_start();
 
     	/*exo_subscribe(	"ledring",

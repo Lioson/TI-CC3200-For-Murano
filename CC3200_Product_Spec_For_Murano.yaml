@@ -1,0 +1,20 @@
+# Murano Product Spec File - CC3200 Application
+
+
+resources:
+-   alias: ontime
+    format: integer
+    
+-   alias: ledd7
+    format: string
+    
+-   alias: sensortemp
+    format: integer
+ 
+-   alias: acc
+    format: integer
+       
+-   alias: usrsw
+    format: string    
+    initial: 0
+    
