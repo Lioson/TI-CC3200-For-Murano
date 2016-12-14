@@ -20,7 +20,7 @@ In this section, you will create a new Product in Murano.
 2. Navigate to the Products tab.
 3. To add a Product, click `+NEW PRODUCT`
 ![image](assets/thingdev_5.png)
-4. In the New Product popup:
+4. In the **New Product** popup:  
 	a. Enter a name for the Product in the Name field.
 	b. Select Start from scratch in the Choose starting point drop-down menu.
 	c. Copy and paste the following URL into the **Link to your product template** field.
