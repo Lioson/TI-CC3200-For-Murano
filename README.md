@@ -14,7 +14,8 @@ This is a Murano demo for the TI cc3200 board. This readme guide will explain ho
 #Getting start
 
 ##Create a Product in Murano
-In this section, you will create a new Product in Murano.
+In this section, you will create a new Product in Murano.  
+
 1. Login your account in <http://www.exosite.com>
 2. Navigate to the Products tab.
 3. To add a Product, click `+NEW PRODUCT`
@@ -22,8 +23,8 @@ In this section, you will create a new Product in Murano.
 4. In the New Product popup:
 	a. Enter a name for the Product in the Name field.
 	b. Select Start from scratch in the Choose starting point drop-down menu.
-	c. Copy and paste the following URL into the Link to your product template field.
-	***https://raw.githubusercontent.com/exosite-garage/arduino_exosite_library/master/examples/Murano-SmartLightBulb-ThingDevBoard/product_spec_smart_lightbulb_example.yaml***
+	c. Copy and paste the following URL into the **Link to your product template** field.
+	***https://raw.githubusercontent.com/Lioson/TI-CC3200-For-Murano/master/CC3200_Product_Spec_For_Murano.yaml***
 	
     ***This will allow you to use a product template spec file to set up the product definition.***
 	d. Click "ADD."
@@ -47,7 +48,7 @@ In this section, you will flash and run an example application for a connected l
 
 	![image](assets/thingdev_8.png)
 	
-2. Click on "3200ExositeDemo", open main.c and enter Product ID.	
+2. Click on **3200ExositeDemo**, open main.c and enter Product ID.	
 	![image](assets/thingdev_9.png)
 	
     **Find your product ID:**
