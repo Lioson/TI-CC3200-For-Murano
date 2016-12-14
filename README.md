@@ -113,15 +113,33 @@ In this section, you will create a device under your Product in Murano.
 	a. Enter a name for the device in the Name field. This will only be used to help you distinguish between devices.
 	b. Enter the device identifier (MAC address) you identified in the previous section in the Identity field.
 	c. Click `CREATE`.
-		![image](assets/thingdev_22.png)
+	![image](assets/thingdev_22.png)
 
-4. Back to the Tera Term, at the same time, push the "RESET" button on the board, and remove the p58-vcc jumper, device shall start to upload data to cloud.		
+4. Back to the Tera Term, push the "RESET" button on the board, device start to report data to cloud .		
 ![image](assets/thingdev_23.png)
 
-5. In Murano, navigate to the DEVICES tab for this Product, select your device, and ensure data is showing up on the RESOURCES tab.  
+5. In Murano, navigate to the `DEVICES` tab for this Product, select your device, and ensure data is showing up on the `RESOURCES` tab.  
 ![image](assets/thingdev_24.png)
 
 ## Create a dashoboard in Murano
-In this section, you will create a dashboard to view the data from the connected lightbulb and turn it on and off remotely.  
+In this section, you will create a dashboard to view the tempeature chart.  
 
-1. From the RESOURCES tab for your device, open the DASHBOARD tab.  
+1. Click on the `DASHBOARD` tab.  
+![image](assets/thingdev_25.png)
+
+2. A new browzer will popup and show the dashboard, click on`+ADD PANE`.  
+![image](assets/thingdev_26.png)
+
+3. Click on `+`.  
+![image](assets/thingdev_27.png)
+
+4. In the "TYPE", select Text.  
+![image](assets/thingdev_28.png)
+
+5. Input "TITLE",click on `+RESOURCE`,and select "sensor temp". Place 'F' for "UNITS", and click `SAVE`.  
+![image](assets/thingdev_29.png)
+
+6. A tempeature chart has showed up.  
+![image](assets/thingdev_30.png)
+
+
