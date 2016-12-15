@@ -30,7 +30,8 @@ In this section, you will create a new Product in Murano.
     
 	***https://raw.githubusercontent.com/Lioson/TI-CC3200-For-Murano/master/CC3200_Product_Spec_For_Murano.yaml***
 	
-    ***This will allow you to use a product template spec file to set up the product definition.***
+    ***This will allow you to use a product template spec file to set up the product definition.***  
+    
 	d. Click "ADD."  
     
 	![image](assets/thingdev_6.png)
