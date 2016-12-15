@@ -101,7 +101,7 @@ In this section, you will flash and run an example application for a connected l
 
 15. Back to the Tera Term, at the same time, push and hold the "RESET" button on 3200-LAUNCHXL board, remove the p58-vcc jumper, release "RESET" button, observe Tera Term terminal, device start to upload data to cloud.  
 ![image](assets/thingdev_20.png)  
-***Note: Device will hold the upload sequence until the device's MAC address has been inputed into Murano.***  
+***Note: Device will hold the upload sequence until the device has been added into Murano.***  
 
 ## Add a device in Murano
 In this section, you will create a device under your Product in Murano.  
